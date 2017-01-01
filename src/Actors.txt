@@ -1,0 +1,13 @@
+name,role,actingScore,vocalScore,production
+Peter Lawn, leading man, 3, 3, The Piper
+Matt Bom, leading man, 4, 5, The Piper
+Dave Reed, leading man, 3, 2, The Piper
+Arlene Thomas, leading woman, 3, 3, The Piper
+Fran Dracul, leading woman, 4, 5, The Piper
+Daphne Johns, leading woman, 3, 2, The Piper
+Faith Bean, leading woman, 5, 3, Song of Songs
+Julie Marina, leading woman, 3, 4, Song of Songs
+Wendy Blanche, leading woman, 2, 5, Song of Songs
+Nate Dean, leading man, 5, 3, Song of Songs
+Morris Smith, leading man, 3, 4, Song of Songs
+Adam Brown, leading man, 2, 5, Song of Songs
