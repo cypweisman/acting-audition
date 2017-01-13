@@ -1,5 +1,5 @@
 name,role,actingScore,vocalScore,production
-Peter Lawn, leading man, 3, 3, The Piper
+Peter Lawn, leading man, 5, 4, The Piper
 Matt Bom, leading man, 4, 5, The Piper
 Dave Reed, leading man, 3, 2, The Piper
 Arlene Thomas, leading woman, 3, 3, The Piper
