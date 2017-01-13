@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
-
+import java.util.Arrays;
 
 public class Production {
 
@@ -37,32 +37,46 @@ public class Production {
 				if (givenActor.getRole().contains("leading man")){
 				
 					if (givenActor.getAvgScore() > leadManScore) {
+						leadMan.clear();
 						leadMan.add(givenActor.getName());
 						leadManScore = givenActor.getAvgScore();
+					} else if (givenActor.getAvgScore() == leadManScore){
+						leadMan.add(givenActor.getName());
 					}
 				
 				} else {
 				
 					if (givenActor.getAvgScore() > leadWomanScore) {
+						leadWoman.clear();
 						leadWoman.add(givenActor.getName());
 						leadWomanScore = givenActor.getAvgScore();
+					} else if (givenActor.getAvgScore() == leadManScore){
+						leadWoman.add(givenActor.getName());
 					}
 				}
 				
 			}
 
 			System.out.println(" --Leading Man-- ");
-			
-			for (int m = 0; m < leadMan.size(); m++){
-				System.out.println(leadMan.get(m) );
+			if (leadMan.size() > 1){
+				System.out.println("Tie between: ");
 			}
+			System.out.print("");
+			for (int m = 0; m < leadMan.size(); m++){
+					System.out.print(" " + leadMan.get(m) + " ");
+			}
+			System.out.println("");
+				
 			
 			System.out.println(" --Leading Woman-- ");
-			
-			for (int w = 0; w < leadWoman.size(); w++){
-				System.out.println(leadWoman.get(w) );
+			if (leadWoman.size() > 1){
+				System.out.println("Tie between: ");
 			}
-			
+			System.out.print("");
+			for (int w = 0; w < leadWoman.size(); w++){
+					System.out.print(" " + leadWoman.get(w) + " ");
+			}
+			System.out.println("");
 			System.out.println("");
 			
 		}
