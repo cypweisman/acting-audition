@@ -48,7 +48,9 @@ public class Runner {
 						 Production.setProduction(actor);	
 						} catch (IndexOutOfBoundsException e) {
 							System.err.println("Sorry, please enter data in the specified format");
-						} 
+						} catch (Exception e) {
+							System.err.println("Sorry, re-enter");
+						}
 						userInput = scanner.nextLine();
 					} 
 				 Production.printAuditionResults();
