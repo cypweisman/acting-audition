@@ -2,7 +2,7 @@
 Eclipse, Java, JUnit
 
 Project Goal:
-- Create a command line app that allows a user to enter the results of an acting audition
+- Create a command line app that allows a user to enter the results of an acting audition and determine the leads
 - The user should be able to enter data manually via the command line or provide the path of a text file to be parsed
 
 Current Status:
