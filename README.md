@@ -1,4 +1,15 @@
-# acting-audition
-My first Java/Eclipse project; it's an object oriented command line app that allows a user to enter the results of an acting audition. The user can enter data manually via the command line or provide the file path of a text file to be parsed
+### Acting Audition
+Eclipse, Java, JUnit
+
+Project Goal:
+- Create a command line app that allows a user to enter the results of an acting audition
+- The user should be able to enter data manually via the command line or provide the path of a text file to be parsed
+
+Current Status:
+- Functional with file parser, driver code, actors and productions
+- Unit tests written actor class
+
+Up Next:
+- Develop tests for production class
 
 [Watch a screencast of the app running here](https://www.youtube.com/watch?v=4aOqwx3QqTI)
